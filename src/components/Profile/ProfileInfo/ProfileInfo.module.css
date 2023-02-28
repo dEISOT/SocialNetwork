@@ -1,0 +1,24 @@
+.content{
+
+}
+.content > img{
+    display: block;
+    width: 100%;
+    max-height:200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: clip;
+    
+}
+
+.description{
+    background-color: blue;
+}
+
+.test {
+    width: 100%!important;
+    background-image: url("./7082673_23964.jpg");
+    height: 200px;
+    border-radius: 15px;
+}

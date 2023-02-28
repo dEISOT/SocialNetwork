@@ -1,0 +1,29 @@
+.App{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    .App {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .App {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .App {
+      width: 1170px;
+    }
+}
+
+.left_right{
+  display: flex;
+  align-items: stretch;
+}
+.appContent{
+  margin: 0;
+  width: 100%;
+}

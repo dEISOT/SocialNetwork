@@ -1,0 +1,25 @@
+.navbar{
+    margin-right: 10px;
+    width: 200px;
+    height: 100%;
+    min-height: 500px;
+    background-color: #20222c;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #bd93f9;
+}
+a:hover{
+    color:#f2f2f2;
+}
+li{
+    margin: 20px;
+}
