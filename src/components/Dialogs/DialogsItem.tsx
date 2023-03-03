@@ -4,9 +4,10 @@ import logo from "../../img/logo.jpg";
 import { NavLink } from "react-router-dom";
 
 export function DialogItem(props: any){
+    let path = "/dialog/" + props.id;
     return(
         <div className={classes.sender}>
-                    <NavLink to="/dialogs/1"><img src={logo} alt="avatar" /><h3>{props.name}</h3></NavLink>
+            <NavLink to={path}><img src={logo} alt="avatar" /><h3>{props.name}</h3></NavLink>
         </div>
     );
 }

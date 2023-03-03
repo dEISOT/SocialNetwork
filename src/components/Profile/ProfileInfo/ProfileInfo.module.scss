@@ -1,0 +1,45 @@
+.content{
+
+    display: flex;
+    flex-direction: column;
+
+    .description{
+        display: flex;
+        align-items: center;
+        background-color: rgba(95, 53, 96, 0.4);
+        border-radius: 10px;
+        height: 200px;
+        img{
+            margin: 0 20px;
+            display: flex;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid rgba(189,147,249,0.4);
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                margin: 5px 0;
+                font-size: 20px;
+            }
+        }
+    }
+}
+.content > img{
+    display: block;
+    width: 100%;
+    max-height:200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: clip;
+    
+}
+
+
+
+
+
+
